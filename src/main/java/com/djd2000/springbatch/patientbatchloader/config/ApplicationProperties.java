@@ -21,6 +21,7 @@ public class ApplicationProperties {
 		private String inputPath = "aaaa/data";
 
 		public String getInputPath() {
+			System.out.println(inputPath);
 			return inputPath;
 		}
 
